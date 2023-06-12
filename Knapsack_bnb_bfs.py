@@ -1,3 +1,4 @@
+#Fungsi untuk menghitung UpperBound dengan rumus upperbound
 def bound(level, value, weight, components, budget):
     if weight >= budget:
         return 0
